@@ -7,12 +7,13 @@ $opcion= $_POST['dato1'];
 switch ($opcion) {
         case '1':
            echo ' ORDENASTE PIZZA';
+           
             break;
         case '2':
             echo ' ORDENASTE PERRO CALIENTE';
             break;
         case '3':
-            echo 'ORDENASTE HAMBURGESA';
+            echo 'ORDENASTE HAMBURGUESA';
             break;
         case '4':
             echo 'ORDENASTE DESGRANADO';
