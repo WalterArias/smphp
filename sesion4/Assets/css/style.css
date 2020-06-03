@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  padding: 2px;
+  color: #f1a10c;
+  font-size: 24px;
+}
+
+article {
+  float: left;
+  width: 550px;
+  padding: 5px;
+
+  color: black;
+}
+section {
+  width: 1200px;
+  padding: 5px;
+}
+
+form {
+  background-color: #74df8b;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+input,
+span,
+label {
+  margin-left: 17%;
+  display: block;
+  width: 400px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+input:hover {
+  border-style: solid;
+  border-color: #63c6f3;
+}
+
+input[type="submit"]:hover {
+  border-style: solid;
+  background-color: #044d10;
+  color: #ffffff;
+}
