@@ -2,30 +2,18 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Seminario PHP</title>
     <link rel="stylesheet" href="Assets/css/style.css" />
   </head>
   <body>
-    <section>
-      <article>
-        <h1>ESTRUCTURAS DE DECISIÓN EN PHP</h1>
-        <br />
-
-        <a href="simple.html"> DECISIÓN SIMPLE</a> <br />
-        <a href="estruct.html"> DECISIÓN ESTRUCTURADA</a> <br />
-        <a href="multiple.html"> DECISIÓN MULTIPLE</a> <br />
-      </article>
-
-      <article>
-        <br />
-        <br />
-        <a
-          href="https://mentebyte.wordpress.com/2020/06/03/decisiones-y-tipos-de-datos/"
-        >
-          VER MATERIAL DE APOYO
-        </a>
-      </article>
-    </section>
+    <form action="App/saludo.php" method="POST">
+      <label for="dato1">Ingresa el valor 1</label>
+      <input type="text" name="dato1" />
+      <label for="dato2">Ingresa el valor 2</label>
+      <input type="text" name="dato2" />
+      <br /><br />
+      <input type="submit" class="boton" value="Enviar" />
+    </form>
   </body>
 </html>
