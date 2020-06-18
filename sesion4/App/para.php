@@ -4,9 +4,9 @@
  $contador =0;
  $bandera =$_POST['bandera'];
 
-for ($i=0; $i < $bandera; $i++) {
-    $contador++;
+for ($i=0; $i <= $bandera; $i++) {
     echo $contador.'<br>';
+    $contador++;
 }
 
 

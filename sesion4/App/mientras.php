@@ -6,8 +6,8 @@
 
  while ($contador <= $bandera) {
      echo $contador.'<br>';
-     $contador = $contador+1;
-     //$contador++;
+     //$contador = $contador+1;
+     $contador++;
  }
 
  echo"<br>";
