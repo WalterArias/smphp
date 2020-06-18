@@ -3,10 +3,10 @@
 //arreglo asociativo
 
 $felinos =[
-'a' =>'gato',
-'b' => 'puma',
-'c' => 'pantera',
-'d' => 'leon'
+3 =>'gato',
+4 => 'puma',
+5 => 'pantera',
+6 => 'leon'
 ];
 
 

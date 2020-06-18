@@ -19,7 +19,6 @@ $animales[3][2]='cucaracha';
 
 
 
-
 //impresion del arreglo
 echo '<hr>';
 echo 'ARREGLO ASOCIATIVO : '.'<br>';

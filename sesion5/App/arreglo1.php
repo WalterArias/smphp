@@ -2,16 +2,9 @@
 
 
 //arreglo definicion clasica
-$felinos= array('tigre','leon','pantera','puma','lince','gato');
+//$felinos= array('tigre','leon','pantera','puma','lince','gato');
 //arreglo definicion moderna
 $felinos= ['tigre','leon','pantera','puma','lince','gato'];
-
-
-
-
-
-
-
 
 
 //impresion de posicion especifica
@@ -22,7 +15,7 @@ echo $felinos[2];
 echo '<br>';
 echo $felinos[5];
 echo '<hr>';
-
+ 
 
 
 

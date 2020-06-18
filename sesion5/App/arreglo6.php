@@ -11,9 +11,9 @@ $animales =  array(
     array('escarabajo','cienpies','grillo')
     );
     
-    foreach ($animales as $clave=>$fila) {
+    foreach ($animales as $index=>$fila) {
         print '<br/>';
         foreach ($fila as $dato2=>$columna) {
-            print $columna.' | ';
+            print $columna.' -|-';
         }
     }

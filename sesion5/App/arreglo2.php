@@ -3,13 +3,15 @@
 //arreglo definicion moderna
 $felinos= ['tigre','leon','pantera','puma','lince','gato','jaguar'];
 
-//manipulacion del arreglo
+ //manipulacion del arreglo
 $felinos[2] = 'gato de porcelana';
+$felinos[5] = 'chetah';
+
 
 
 //borrado de posicion
 unset($felinos[0]);
-
+ 
 
 
 //impresion del arreglo
