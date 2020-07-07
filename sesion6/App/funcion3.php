@@ -8,7 +8,7 @@ $edad = $_POST['edad'];
 
 
 /**
- * Saludar
+ * Saludar : funcion que retorna un saludo, recibiendo 3 parametros desde un formulario
  *
  * @param  mixed $nombre
  * @param  mixed $apellido
