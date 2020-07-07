@@ -15,11 +15,9 @@ echo strlen($texto);   //cuenta la cantidad de caracteres
 echo '<br>';
 echo str_replace("tristes", "xxyy", $texto);   //reemplaza una frase por otra en una cadena
 echo '<br>';
-echo strtolower($texto);   //reemplaza una frase por otra en una cadena
+echo strtolower($texto);   //pone toda la cadena en minuscula
 echo '<br>';
-echo strtoupper($texto);   //reemplaza una frase por otra en una cadena
-echo '<br>';
-echo ucfirst($texto);
+echo strtoupper($texto);   //pone toda la cadena en mayuscula
 echo '<br>';
 echo str_shuffle($texto);
 echo '<br>';

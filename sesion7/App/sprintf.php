@@ -1,5 +1,6 @@
 <?php
 
+
 $n =  43951789;
 $u = -43951789;
 $c = 65; // ASCII 65 es 'A'
@@ -30,3 +31,8 @@ echo '<br>';
 printf("%%+d = '%+d'\n", $n); // especificador de signo sobre un entero positivo
 echo '<br>';
 printf("%%+d = '%+d'\n", $u); // especificador de signo sobre un entero negativo
+?>
+
+</body>
+
+</html>
