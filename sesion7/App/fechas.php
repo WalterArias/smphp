@@ -13,27 +13,27 @@ minuto y segundo, para regresar el sello cronológico correspondiente a ese inst
 UNIX fue uno de los primeros sistemas operativos del mundo */
 
 //echo mktime();  //depreciada a partir de la version 7
-date_default_timezone_set("America/Bogota");
 
-echo time();
+//echo time();
+//date_default_timezone_set("Pacific/Rarotonga");
+date_default_timezone_set("America/Bogota");
 echo '<br>';
-echo date('Y-m-d');
-echo '<br>';
-echo date("l");
-echo '<br>';
-echo date('Y-m-d h:i:s');
-echo '<br>';
+//echo date('Y-m-d');
+//echo date('Y-m-d h:i:s');
+/* echo date("l");
+
+
 echo date(DATE_RFC2822);
 echo '<br>';
-echo '<hr>';
+echo '<hr>'; */
 
 //============  FORMATEO GENERAL DE FECHAS  ==============
 
-//$hoy = date("F j, Y, g:i a");
+//$hoy = date("F j, Y, g:i A");
 //$hoy = date("m.d.y");
 //$hoy = date("j, n, Y");
 //$hoy = date("Ymd");
-//$hoy = date('\i\t \i\s \t\h\e jS \d\a\y.');
+//$hoy = date('\E\s \e\l jS \d\i\a.');
 //$hoy = date("D M j G:i:s T Y");
 //$hoy = date("H:i:s");
 
