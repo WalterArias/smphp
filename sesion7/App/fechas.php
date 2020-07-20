@@ -29,7 +29,7 @@ echo '<hr>'; */
 
 //============  FORMATEO GENERAL DE FECHAS  ==============
 
-//$hoy = date("F j, Y, g:i A");
+$hoy = date("F j, Y, g:i A");
 //$hoy = date("m.d.y");
 //$hoy = date("j, n, Y");
 //$hoy = date("Ymd");

@@ -1,0 +1,12 @@
+10
+Tuercas
+5000
+11
+Tornillos
+5200
+99
+Martillo
+5000
+56
+Escalera
+500000
