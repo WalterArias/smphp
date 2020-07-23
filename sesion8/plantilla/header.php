@@ -5,8 +5,8 @@
     <meta charset="UTF-8" />
 
     <title>Seminario PHP</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Zetta&display=swap" rel="stylesheet" />
-
     <link rel="stylesheet" href="Assets/css/style.css" />
 </head>
 
@@ -20,9 +20,6 @@
                 <li><a href="index.php"> Inicio </a></li>
                 <li><a href="vta_imprimir.php"> Consultar</a></li>
                 <li><a href="vta_agregar.php"> Agregar </a></li>
-                <li><a href="vta_editar.php"> Editar </a></li>
-                <li><a href="vta_borrar.php"> Borrar </a></li>
-
             </ul>
         </nav>
     </header>

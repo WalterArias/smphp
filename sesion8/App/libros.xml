@@ -1,4 +1,4 @@
-<?xml version ="1.0" encoding ="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <biblioteca>
     <libro>
         <codigo>28</codigo>
@@ -28,6 +28,4 @@
         <editorial>Voluntad</editorial>        
          <existencia>15</existencia>
     </libro>  
-</biblioteca>
-
-
+<libro><codigo>199</codigo><titulo>Recetas del mundo</titulo><autor>Jhon James</autor><editorial>Verde</editorial><existencia>100</existencia></libro></biblioteca>

@@ -8,8 +8,9 @@ include_once('plantilla/header.php');
     <th>TITULO</th>
     <th>AUTOR</th>
     <th>EDITORIAL</th>
-
     <th>CANTIDAD EXISTENTE</th>
+    <th>ACCION</th>
+    <th>ACCION</th>
 
 
     <?php
@@ -29,9 +30,15 @@ include_once('plantilla/header.php');
         echo "<td>";
         echo $libro->editorial;
         echo "</td>";
-      
         echo "<td>";
         echo $libro->existencia;
+        echo "</td>";
+        echo "<td>";
+        echo "<a href =logica/borrar.php?id=$libro->id><i class='material-icons md-dark'>delete</i></a>";
+        echo "</td>";
+        echo "<td>";
+    
+        echo "<a href =logica/editar.php?id=$libro->id> <i class='material-icons md-dark'>edit</i></a>";
         echo "</td>";
         echo "</tr>";
     }
