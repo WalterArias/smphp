@@ -1,0 +1,33 @@
+<?xml version ="1.0" encoding ="UTF-8" ?>
+<biblioteca>
+    <libro>
+        <codigo>28</codigo>
+        <titulo>Cien Años de Soledad</titulo>
+        <autor>Garcia Marquez</autor>
+        <editorial>Santillana</editorial>     
+        <existencia>10</existencia>
+    </libro>
+     <libro>
+     <codigo>139</codigo>
+        <titulo>Carbono Alterado</titulo>
+        <autor>Richard Morgan</autor>
+        <editorial>Voluntad</editorial>        
+         <existencia>3</existencia>
+    </libro>  
+     <libro>
+     <codigo>77</codigo>
+        <titulo>Novelas</titulo>
+        <autor>Edgar Allan Poe</autor>
+        <editorial>Strange</editorial>        
+        <existencia>5</existencia>
+    </libro>
+     <libro>
+     <codigo>692</codigo>
+        <titulo>Programando en PHP</titulo>
+        <autor>Varios</autor>
+        <editorial>Voluntad</editorial>        
+         <existencia>15</existencia>
+    </libro>  
+</biblioteca>
+
+
