@@ -1,31 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<biblioteca>
+<biblioteca>    
     <libro>
-        <codigo>28</codigo>
-        <titulo>Cien Años de Soledad</titulo>
-        <autor>Garcia Marquez</autor>
-        <editorial>Santillana</editorial>     
-        <existencia>10</existencia>
-    </libro>
-     <libro>
-     <codigo>139</codigo>
-        <titulo>Carbono Alterado</titulo>
-        <autor>Richard Morgan</autor>
-        <editorial>Voluntad</editorial>        
-         <existencia>3</existencia>
-    </libro>  
-     <libro>
-     <codigo>77</codigo>
-        <titulo>Novelas</titulo>
-        <autor>Edgar Allan Poe</autor>
-        <editorial>Strange</editorial>        
-        <existencia>5</existencia>
-    </libro>
-     <libro>
-     <codigo>692</codigo>
+        <codigo>692</codigo>
         <titulo>Programando en PHP</titulo>
         <autor>Varios</autor>
-        <editorial>Voluntad</editorial>        
-         <existencia>15</existencia>
-    </libro>  
-<libro><codigo>199</codigo><titulo>Recetas del mundo</titulo><autor>Jhon James</autor><editorial>Verde</editorial><existencia>100</existencia></libro></biblioteca>
+        <editorial>Voluntad</editorial>
+        <existencia>15</existencia>
+    </libro>
+    
+    
+    <libro>
+        <codigo>99</codigo>
+        <titulo>La BIBLIA</titulo>
+        <autor>JESUS</autor>
+        <editorial>NOVA</editorial>
+        <existencia>25</existencia>
+    </libro>
+</biblioteca>

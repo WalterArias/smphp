@@ -14,7 +14,8 @@ include_once('plantilla/header.php');
 
 
     <?php
-    $xml = simplexml_load_file("app/libros.xml");   //crea variable y carga el archivo
+    $xml = simplexml_load_file("app/libros.xml");
+
     foreach ($xml->libro as $libro) {
         echo "<tr>";
         echo "<td>";
@@ -33,7 +34,11 @@ include_once('plantilla/header.php');
         echo $libro->existencia;
         echo "</td>";
         echo "<td>";
-        echo "<a href =app/borrar.php?codigo=$libro->codigo>Borrar</a>";
+        echo "<a href =logica/borrar.php?id=$libro->id><i class='material-icons md-dark'>delete</i></a>";
+        echo "</td>";
+        echo "<td>";
+    
+        echo "<a href =logica/editar.php?id=$libro->id> <i class='material-icons md-dark'>edit</i></a>";
         echo "</td>";
         echo "</tr>";
     }

@@ -20,6 +20,7 @@
                 <li><a href="index.php"> Inicio </a></li>
                 <li><a href="vta_imprimir.php"> Consultar</a></li>
                 <li><a href="vta_agregar.php"> Agregar </a></li>
+
             </ul>
         </nav>
     </header>
