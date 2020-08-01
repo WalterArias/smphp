@@ -1,0 +1,130 @@
+body {
+  margin: 0 auto;
+  background-color: #e6e7e9;
+}
+
+h1 {
+  text-align: center;
+  padding: 2px;
+  color: #f14d0c;
+  font-size: 24px;
+}
+
+p {
+  text-align: justify;
+}
+section {
+  width: 1200px;
+  padding: 5px;
+  font-family: "Arial";
+  margin: 0 Auto;
+}
+article {
+  float: left;
+  width: 550px;
+  padding: 10px;
+  margin-left: 3px;
+  color: black;
+  height: 600px;
+}
+/*  FORMULARIOS*/
+form {
+  margin: 0 auto;
+  width: 500px;
+
+  border-radius: 10px;
+  padding: 15px;
+}
+
+input,
+span,
+label {
+  display: block;
+  padding: 10px;
+  width: 80%;
+  border-radius: 5px;
+}
+
+input:hover {
+  border-style: solid;
+
+  border-color: #63c6f3;
+}
+
+input[type="submit"] {
+  width: 40%;
+  background-color: #07a120;
+  color: #ffffff;
+}
+
+input[type="submit"]:hover {
+  width: 40%;
+  background-color: #3edf59;
+  color: #030303;
+}
+
+/* ENCABEZADO Y PIE DE PAGINA DEL SITIO*/
+.logo {
+  text-align: center;
+}
+
+nav {
+  padding: 20px;
+  background-color: #fffbfb;
+  font-family: "Lexend Zetta", sans-serif;
+  font-size: 14px;
+}
+
+nav > ul {
+  text-align: center;
+}
+nav > ul > li {
+  display: inline;
+}
+nav > ul > li > a {
+  text-decoration: none;
+  padding: 20px;
+  color: #8f8d8d;
+}
+
+nav > ul > li > a:hover {
+  background-color: #0000ff;
+  color: #fffdfd;
+  border-radius: 5px;
+}
+
+footer {
+  clear: both;
+  font-size: 10px;
+  padding: 20px;
+  background-color: black;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Lexend Zetta", sans-serif;
+  font-size: 12px;
+}
+
+/*MAQUETACION DE LAS TABLAS*/
+
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 10px;
+}
+th {
+  background-color: #0000ff;
+  color: #ffffff;
+}
+tr:nth-child(even) {
+  background-color: #c9c7c7;
+}
+
+tr:hover {
+  background-color: #fcfafa;
+}
