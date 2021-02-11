@@ -78,6 +78,6 @@ header('Content-Type: application/x-shockwave-flash'); // Flash animation */
 // show sign in box
 /* header('HTTP/1.1 401 Unauthorized');
 header('WWW-Authenticate: Basic realm="Top Secret"');
-print 'Text that will be displayed if the user hits cancel or ';
-print 'enters wrong login data';  */
+print 'Texto que se despliega si el usuario cancela o ';
+print 'Usted ha ingresado datos erróneos de Login';  */
 ?>
