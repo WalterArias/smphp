@@ -5,7 +5,8 @@
 //header('HTTP/1.1 200 OK');
   
 // Page was not found:
-header('HTTP/1.1 404 Not Found');
+//header('HTTP/1.1 404 Not Found');
+
  
 // Access forbidden:
 //header('HTTP/1.1 403 Forbidden');
@@ -66,7 +67,8 @@ header('Expires: Mon, 26 Jul 1997 05:00:00 GMT'); // Date in the past
 header('Pragma: no-cache'); */
  
 // set content type:
-/* header('Content-Type: text/html; charset=iso-8859-1');
+/* 
+header('Content-Type: text/html; charset=iso-8859-1');
 header('Content-Type: text/html; charset=utf-8');
 header('Content-Type: text/plain'); // plain text file
 header('Content-Type: image/jpeg'); // JPG picture
@@ -76,8 +78,8 @@ header('Content-Type: audio/mpeg'); // Audio MPEG (MP3,...) file
 header('Content-Type: application/x-shockwave-flash'); // Flash animation */
  
 // show sign in box
-/* header('HTTP/1.1 401 Unauthorized');
+ header('HTTP/1.1 401 Unauthorized');
 header('WWW-Authenticate: Basic realm="Top Secret"');
 print 'Texto que se despliega si el usuario cancela o ';
-print 'Usted ha ingresado datos erróneos de Login';  */
+print 'Usted ha ingresado datos erróneos de Login';  
 ?>
